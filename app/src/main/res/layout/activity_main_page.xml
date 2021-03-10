@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://sch emas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity"
+    android:orientation="vertical"
+    android:background="#1B2E68"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OBird"
+        android:textSize="50sp"
+        android:fontFamily="@string/main_font"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+
+        />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnaddpost"
+    android:layout_marginTop="30dp"
+android:layout_gravity="center"
+    android:text="Add Post"
+    android:background="@drawable/button_custom"
+
+    />
+
+    <Button
+        android:id="@+id/btnallpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="AllPost"
+
+
+
+        />
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:auto_cycle="true"
+        app:delay="0"
+        app:period="1000"
+        app:corner_radius="5"
+        android:layout_marginTop="20dp"
+        >
+
+    </com.denzcoskun.imageslider.ImageSlider>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/button_custom"
+    android:id="@+id/ll"
+    />
+
+
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="#1B2E68"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"
+        />
+
+
+    <EditText
+        android:id="@+id/nameet"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#fff"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:gravity="center"
+        android:hint="Name"
+
+
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/email2et"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:hint="Email"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:backgroundTint="#fff"
+            android:textColorHint="#fff"
+
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/passworrd2et"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_marginTop="50dp"
+            android:hint="Password"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:backgroundTint="#fff"
+            android:textColorHint="#fff"
+            />
+
+
+
+
+
+    <Button
+        android:id="@+id/reistebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_custom"
+        />
+
+</LinearLayout>
+
+
+
