@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -19,6 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
     private Button registerbtn;
     private EditText nameet, email2et, passworrd2et;
+    private TextView registertv;
   //  private SharedPreferences sp;
     private FirebaseAuth mAuth;
 

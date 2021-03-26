@@ -18,6 +18,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:textColor="#fff"
+        android:id="@+id/registertv"
         />
 
 

@@ -3,7 +3,10 @@ package com.example.ex123;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlarmManager;
 import android.app.Dialog;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -32,6 +35,11 @@ public class MainPageActivity extends AppCompatActivity implements View.OnClickL
         btnallpost.setOnClickListener(this);
         ll = findViewById(R.id.ll);
         ll.setOnClickListener(this);
+
+        Intent notification = new Intent(this, Receiver.class);
+        PendingIntent pendingIntent = PendingIntent.getBroadcast(this, 1, notification, PendingIntent.FLAG_UPDATE_CURRENT);
+        AlarmManager alarmManager = (AlarmManager) this.getSystemService(Context.ALARM_SERVICE);
+        alarmManager.setRepeating(AlarmManager.RTC, System.currentTimeMillis(), 1000*60*60*24, pendingIntent);
 
 
         ImageSlider imageSlider = findViewById(R.id.slider);

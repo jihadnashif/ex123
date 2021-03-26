@@ -6,9 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class AllCategories extends AppCompatActivity implements View.OnClickListener {
     private RelativeLayout Songbirds,waterBird,accipitriformes,galliformes;
+    private TextView activity_all_categories_tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

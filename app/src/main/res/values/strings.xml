@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Smart House</string>
+    <string name="app_name">OBird</string>
     <string name="main_font">casual</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -13,4 +13,6 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="channel_name">OBird_Notification_Channel</string>
+    <string name="channel_description">description</string>
 </resources>
